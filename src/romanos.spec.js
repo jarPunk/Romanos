@@ -28,5 +28,8 @@ describe("convertirARomano", () => {
   it("debería convertir 90 a XC", () => {
     expect(convertirARomano(90)).toEqual("XC");
   });
+  it("debería convertir 100 a C", () => {
+    expect(convertirARomano(100)).toEqual("C");
+  });
 
 });
