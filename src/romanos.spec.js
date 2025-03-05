@@ -10,5 +10,8 @@ describe("convertirARomano", () => {
   it("debería convertir 4 a IV", () => {
     expect(convertirARomano(4)).toEqual("IV");
   });
+  it("debería convertir 5 a V", () => {
+    expect(convertirARomano(5)).toEqual("V");
+  });
 
 });
