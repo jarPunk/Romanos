@@ -1,6 +1,8 @@
 function convertirARomano(num) {
     const valores = [
+      { decimal: 4, romano: "IV" },
       { decimal: 1, romano: "I" }
+      
     ];
   
     let resultado = "";
