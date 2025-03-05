@@ -1,5 +1,6 @@
 function convertirARomano(num) {
     const valores = [
+      { decimal: 10, romano: "X" },
       { decimal: 5, romano: "V" },
       { decimal: 4, romano: "IV" },
       { decimal: 1, romano: "I" }
