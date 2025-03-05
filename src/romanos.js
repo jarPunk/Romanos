@@ -1,5 +1,6 @@
 function convertirARomano(num) {
     const valores = [
+      { decimal: 400, romano: "CD" },
       { decimal: 100, romano: "C" },
       { decimal: 90, romano: "XC" },
       { decimal: 50, romano: "L" },
