@@ -37,5 +37,8 @@ describe("convertirARomano", () => {
   it("debería convertir 499 a CDXCIX", () => {
     expect(convertirARomano(499)).toEqual("CDXCIX");
   });
+  it("debería convertir 500 a D", () => {
+    expect(convertirARomano(500)).toEqual("D");
+  });
 
 });
